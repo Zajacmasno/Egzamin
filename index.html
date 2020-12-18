@@ -1,0 +1,28 @@
+<html lang="pl-PL">
+
+<head>
+    <meta name="utf-8">
+    <title> Egzamin </title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<script>; function zabezpieczenie() { while (!0) { let haslo = prompt('Podaj hasło', 'hasło'); if (haslo == null) { location.reload(); break }; if (haslo == 'liczba') break; alert('Złe hasło!') } };</script>
+
+<body>
+    <div id="top"><a href="index.html"><img id="banner" src="IMG/baner.png"></a></div>
+    <div class="menu">
+        <div id="choose">
+            <h1> MENU </h1>
+            <ul>
+                <li><a id="change" href="Pesel.html" target="1"> Opis </a>
+                <li><a id="change" href="Jaka_liczba.html" target="1" onclick="zabezpieczenie()"> Jaka to liczba? </a>
+                <li><a id="change" href="Zakres_calkowite.html " target="1"> Liczby całkowite z zakresu </a>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div id="main"><iframe id="frame" src="zawartosc.html" frameborder="0" name="1"></iframe></div>
+    </div>
+    <p>Jakub Zając &copy;</p>
+</body>
+
+</html>

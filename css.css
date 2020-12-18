@@ -1,0 +1,90 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    padding-left: 95%;
+}
+
+#top {
+    border: small solid rgb(10, 0, 0);
+}
+
+#banner {
+    height: 35%;
+    width: 100%;
+}
+
+.menu {
+    float: left;
+    background-color: blueviolet;
+    width: 40%;
+    height: 50%;
+    vertical-align: middle;
+}
+
+.content {
+    float: left;
+    background-color: blue;
+    width: 60%;
+    height: 50%;
+    
+}
+
+#choose {
+    margin: 30px;
+    color: whitesmoke;
+    
+}
+
+#napis {
+    margin-left: 120px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1cm;
+}
+
+#frame {
+    height: 90%;
+    width: 90%;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+li a {
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background: rgb(226, 226, 226);
+    padding: 8px 20px;
+    width: 90%;
+    margin: 1px;
+    border-radius: 7px;
+    border: solid black;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+div {
+    border-color: black;
+    border: black;
+}
